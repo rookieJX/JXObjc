@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>imageTitle</key>
+		<string>本皇下凡啦</string>
+		<key>imageName</key>
+		<string>image00</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>凡间有好多美食</string>
+		<key>imageName</key>
+		<string>image01</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>那我就不客气啦</string>
+		<key>imageName</key>
+		<string>image02</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>好吃到哭</string>
+		<key>imageName</key>
+		<string>image03</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>好吃到爆炸</string>
+		<key>imageName</key>
+		<string>image04</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>好吃到令人发指</string>
+		<key>imageName</key>
+		<string>image05</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>好吃到上天</string>
+		<key>imageName</key>
+		<string>image06</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>再吃一口就回天庭</string>
+		<key>imageName</key>
+		<string>image07</string>
+	</dict>
+	<dict>
+		<key>imageTitle</key>
+		<string>本胖飞不动了</string>
+		<key>imageName</key>
+		<string>image08</string>
+	</dict>
+</array>
+</plist>
