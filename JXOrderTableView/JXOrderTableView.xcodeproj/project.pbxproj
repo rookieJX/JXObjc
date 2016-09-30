@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2614C4761D9DF46E00A98306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4751D9DF46E00A98306 /* main.m */; };
+		2614C4791D9DF46E00A98306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4781D9DF46E00A98306 /* AppDelegate.m */; };
+		2614C47F1D9DF46E00A98306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2614C47D1D9DF46E00A98306 /* Main.storyboard */; };
+		2614C4811D9DF46E00A98306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2614C4801D9DF46E00A98306 /* Assets.xcassets */; };
+		2614C4841D9DF46E00A98306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2614C4821D9DF46E00A98306 /* LaunchScreen.storyboard */; };
+		2614C48F1D9DF46E00A98306 /* JXOrderTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C48E1D9DF46E00A98306 /* JXOrderTableViewTests.m */; };
+		2614C49A1D9DF46E00A98306 /* JXOrderTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4991D9DF46E00A98306 /* JXOrderTableViewUITests.m */; };
+		2614C4B11D9DF70E00A98306 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4AA1D9DF70E00A98306 /* ViewController.m */; };
+		2614C4B41D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4B31D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.m */; };
+		2614C4B71D9E4F4900A98306 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4B61D9E4F4900A98306 /* FirstCell.m */; };
+		2614C4BA1D9E505900A98306 /* FirstModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2614C4B91D9E505900A98306 /* FirstModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2614C48B1D9DF46E00A98306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2614C4691D9DF46E00A98306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2614C4701D9DF46E00A98306;
+			remoteInfo = JXOrderTableView;
+		};
+		2614C4961D9DF46E00A98306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2614C4691D9DF46E00A98306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2614C4701D9DF46E00A98306;
+			remoteInfo = JXOrderTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2614C4711D9DF46E00A98306 /* JXOrderTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXOrderTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2614C4751D9DF46E00A98306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2614C4771D9DF46E00A98306 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2614C4781D9DF46E00A98306 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2614C47E1D9DF46E00A98306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2614C4801D9DF46E00A98306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2614C4831D9DF46E00A98306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2614C4851D9DF46E00A98306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2614C48A1D9DF46E00A98306 /* JXOrderTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXOrderTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2614C48E1D9DF46E00A98306 /* JXOrderTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXOrderTableViewTests.m; sourceTree = "<group>"; };
+		2614C4901D9DF46E00A98306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2614C4951D9DF46E00A98306 /* JXOrderTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXOrderTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2614C4991D9DF46E00A98306 /* JXOrderTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXOrderTableViewUITests.m; sourceTree = "<group>"; };
+		2614C49B1D9DF46E00A98306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2614C4A91D9DF70E00A98306 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2614C4AA1D9DF70E00A98306 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2614C4B21D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstArrayDatasourceAndDelegate.h; sourceTree = "<group>"; };
+		2614C4B31D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstArrayDatasourceAndDelegate.m; sourceTree = "<group>"; };
+		2614C4B51D9E4F4900A98306 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		2614C4B61D9E4F4900A98306 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
+		2614C4B81D9E505900A98306 /* FirstModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstModel.h; sourceTree = "<group>"; };
+		2614C4B91D9E505900A98306 /* FirstModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2614C46E1D9DF46E00A98306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4871D9DF46E00A98306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4921D9DF46E00A98306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2614C4681D9DF46E00A98306 = {
+			isa = PBXGroup;
+			children = (
+				2614C4731D9DF46E00A98306 /* JXOrderTableView */,
+				2614C48D1D9DF46E00A98306 /* JXOrderTableViewTests */,
+				2614C4981D9DF46E00A98306 /* JXOrderTableViewUITests */,
+				2614C4721D9DF46E00A98306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2614C4721D9DF46E00A98306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4711D9DF46E00A98306 /* JXOrderTableView.app */,
+				2614C48A1D9DF46E00A98306 /* JXOrderTableViewTests.xctest */,
+				2614C4951D9DF46E00A98306 /* JXOrderTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2614C4731D9DF46E00A98306 /* JXOrderTableView */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4771D9DF46E00A98306 /* AppDelegate.h */,
+				2614C4781D9DF46E00A98306 /* AppDelegate.m */,
+				2614C4A71D9DF70E00A98306 /* FirstController */,
+				2614C4AD1D9DF70E00A98306 /* SecondController */,
+				2614C47D1D9DF46E00A98306 /* Main.storyboard */,
+				2614C4801D9DF46E00A98306 /* Assets.xcassets */,
+				2614C4821D9DF46E00A98306 /* LaunchScreen.storyboard */,
+				2614C4851D9DF46E00A98306 /* Info.plist */,
+				2614C4741D9DF46E00A98306 /* Supporting Files */,
+			);
+			path = JXOrderTableView;
+			sourceTree = "<group>";
+		};
+		2614C4741D9DF46E00A98306 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4751D9DF46E00A98306 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2614C48D1D9DF46E00A98306 /* JXOrderTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				2614C48E1D9DF46E00A98306 /* JXOrderTableViewTests.m */,
+				2614C4901D9DF46E00A98306 /* Info.plist */,
+			);
+			path = JXOrderTableViewTests;
+			sourceTree = "<group>";
+		};
+		2614C4981D9DF46E00A98306 /* JXOrderTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4991D9DF46E00A98306 /* JXOrderTableViewUITests.m */,
+				2614C49B1D9DF46E00A98306 /* Info.plist */,
+			);
+			path = JXOrderTableViewUITests;
+			sourceTree = "<group>";
+		};
+		2614C4A71D9DF70E00A98306 /* FirstController */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4A81D9DF70E00A98306 /* Controlller */,
+				2614C4AB1D9DF70E00A98306 /* Model */,
+				2614C4AC1D9DF70E00A98306 /* View */,
+			);
+			path = FirstController;
+			sourceTree = "<group>";
+		};
+		2614C4A81D9DF70E00A98306 /* Controlller */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4A91D9DF70E00A98306 /* ViewController.h */,
+				2614C4AA1D9DF70E00A98306 /* ViewController.m */,
+			);
+			path = Controlller;
+			sourceTree = "<group>";
+		};
+		2614C4AB1D9DF70E00A98306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4B81D9E505900A98306 /* FirstModel.h */,
+				2614C4B91D9E505900A98306 /* FirstModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2614C4AC1D9DF70E00A98306 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4B21D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.h */,
+				2614C4B31D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.m */,
+				2614C4B51D9E4F4900A98306 /* FirstCell.h */,
+				2614C4B61D9E4F4900A98306 /* FirstCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2614C4AD1D9DF70E00A98306 /* SecondController */ = {
+			isa = PBXGroup;
+			children = (
+				2614C4AE1D9DF70E00A98306 /* Controller */,
+				2614C4AF1D9DF70E00A98306 /* Model */,
+				2614C4B01D9DF70E00A98306 /* View */,
+			);
+			path = SecondController;
+			sourceTree = "<group>";
+		};
+		2614C4AE1D9DF70E00A98306 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2614C4AF1D9DF70E00A98306 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2614C4B01D9DF70E00A98306 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2614C4701D9DF46E00A98306 /* JXOrderTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2614C49E1D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableView" */;
+			buildPhases = (
+				2614C46D1D9DF46E00A98306 /* Sources */,
+				2614C46E1D9DF46E00A98306 /* Frameworks */,
+				2614C46F1D9DF46E00A98306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXOrderTableView;
+			productName = JXOrderTableView;
+			productReference = 2614C4711D9DF46E00A98306 /* JXOrderTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2614C4891D9DF46E00A98306 /* JXOrderTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2614C4A11D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableViewTests" */;
+			buildPhases = (
+				2614C4861D9DF46E00A98306 /* Sources */,
+				2614C4871D9DF46E00A98306 /* Frameworks */,
+				2614C4881D9DF46E00A98306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2614C48C1D9DF46E00A98306 /* PBXTargetDependency */,
+			);
+			name = JXOrderTableViewTests;
+			productName = JXOrderTableViewTests;
+			productReference = 2614C48A1D9DF46E00A98306 /* JXOrderTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2614C4941D9DF46E00A98306 /* JXOrderTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2614C4A41D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableViewUITests" */;
+			buildPhases = (
+				2614C4911D9DF46E00A98306 /* Sources */,
+				2614C4921D9DF46E00A98306 /* Frameworks */,
+				2614C4931D9DF46E00A98306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2614C4971D9DF46E00A98306 /* PBXTargetDependency */,
+			);
+			name = JXOrderTableViewUITests;
+			productName = JXOrderTableViewUITests;
+			productReference = 2614C4951D9DF46E00A98306 /* JXOrderTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2614C4691D9DF46E00A98306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "王加祥";
+				TargetAttributes = {
+					2614C4701D9DF46E00A98306 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2614C4891D9DF46E00A98306 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2614C4701D9DF46E00A98306;
+					};
+					2614C4941D9DF46E00A98306 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2614C4701D9DF46E00A98306;
+					};
+				};
+			};
+			buildConfigurationList = 2614C46C1D9DF46E00A98306 /* Build configuration list for PBXProject "JXOrderTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2614C4681D9DF46E00A98306;
+			productRefGroup = 2614C4721D9DF46E00A98306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2614C4701D9DF46E00A98306 /* JXOrderTableView */,
+				2614C4891D9DF46E00A98306 /* JXOrderTableViewTests */,
+				2614C4941D9DF46E00A98306 /* JXOrderTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2614C46F1D9DF46E00A98306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614C4841D9DF46E00A98306 /* LaunchScreen.storyboard in Resources */,
+				2614C4811D9DF46E00A98306 /* Assets.xcassets in Resources */,
+				2614C47F1D9DF46E00A98306 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4881D9DF46E00A98306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4931D9DF46E00A98306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2614C46D1D9DF46E00A98306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614C4BA1D9E505900A98306 /* FirstModel.m in Sources */,
+				2614C4B41D9DF75400A98306 /* FirstArrayDatasourceAndDelegate.m in Sources */,
+				2614C4B11D9DF70E00A98306 /* ViewController.m in Sources */,
+				2614C4B71D9E4F4900A98306 /* FirstCell.m in Sources */,
+				2614C4791D9DF46E00A98306 /* AppDelegate.m in Sources */,
+				2614C4761D9DF46E00A98306 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4861D9DF46E00A98306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614C48F1D9DF46E00A98306 /* JXOrderTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2614C4911D9DF46E00A98306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2614C49A1D9DF46E00A98306 /* JXOrderTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2614C48C1D9DF46E00A98306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2614C4701D9DF46E00A98306 /* JXOrderTableView */;
+			targetProxy = 2614C48B1D9DF46E00A98306 /* PBXContainerItemProxy */;
+		};
+		2614C4971D9DF46E00A98306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2614C4701D9DF46E00A98306 /* JXOrderTableView */;
+			targetProxy = 2614C4961D9DF46E00A98306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2614C47D1D9DF46E00A98306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2614C47E1D9DF46E00A98306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2614C4821D9DF46E00A98306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2614C4831D9DF46E00A98306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2614C49C1D9DF46E00A98306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2614C49D1D9DF46E00A98306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2614C49F1D9DF46E00A98306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXOrderTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2614C4A01D9DF46E00A98306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXOrderTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2614C4A21D9DF46E00A98306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXOrderTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXOrderTableView.app/JXOrderTableView";
+			};
+			name = Debug;
+		};
+		2614C4A31D9DF46E00A98306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXOrderTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXOrderTableView.app/JXOrderTableView";
+			};
+			name = Release;
+		};
+		2614C4A51D9DF46E00A98306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXOrderTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXOrderTableView;
+			};
+			name = Debug;
+		};
+		2614C4A61D9DF46E00A98306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXOrderTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXOrderTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXOrderTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2614C46C1D9DF46E00A98306 /* Build configuration list for PBXProject "JXOrderTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2614C49C1D9DF46E00A98306 /* Debug */,
+				2614C49D1D9DF46E00A98306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2614C49E1D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2614C49F1D9DF46E00A98306 /* Debug */,
+				2614C4A01D9DF46E00A98306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2614C4A11D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2614C4A21D9DF46E00A98306 /* Debug */,
+				2614C4A31D9DF46E00A98306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2614C4A41D9DF46E00A98306 /* Build configuration list for PBXNativeTarget "JXOrderTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2614C4A51D9DF46E00A98306 /* Debug */,
+				2614C4A61D9DF46E00A98306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2614C4691D9DF46E00A98306 /* Project object */;
+}
