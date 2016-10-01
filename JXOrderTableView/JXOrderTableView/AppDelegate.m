@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "ChatViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 第一个控制器
+    ViewController * firstControl = [[ViewController alloc] init];
+    // 第二个控制器
+    ChatViewController * chatControl = [[ChatViewController alloc] init];
+    
+    UITabBarController * tabBar = [[UITabBarController alloc] init];
+    tabBar.viewControllers = @[firstControl,chatControl];
+    
+    self.window.rootViewController = tabBar;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

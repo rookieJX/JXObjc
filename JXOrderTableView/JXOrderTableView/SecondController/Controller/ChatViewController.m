@@ -1,17 +1,16 @@
 //
-//  ViewController.m
+//  ChatViewController.m
 //  JXOrderTableView
 //
-//  Created by 王加祥 on 16/9/30.
+//  Created by 王加祥 on 16/10/1.
 //  Copyright © 2016年 王加祥. All rights reserved.
-//  整洁的Table Views 代码。内容一句 Objc中国 编写。代码示例中包含两个控制器
-//  第一个控制器 ViewController 使用 Block 方法来编写自定义cell大小
-//  第二个控制器 ChatViewController 使用 delegate 方法来编写自定义cell大小
+//
 
-#import "ViewController.h"
-#import "FirstArrayDatasourceAndDelegate.h"
-#import "FirstModel.h"
+#import "ChatViewController.h"
+#import "SecondDatasourceAndDelegate.h"
 #import "FirstCell.h"
+#import "FirstModel.h"
+
 
 /** 屏幕宽度 */
 #define kWidth [UIScreen mainScreen].bounds.size.width
@@ -20,28 +19,28 @@
 /** 屏幕尺寸 */
 #define kScreen [UIScreen mainScreen].bounds
 
-@interface ViewController ()
 
+@interface ChatViewController ()
 /** viewController */
 @property (nonatomic,weak) UITableView * tableView;
 /** 接收数据模型 */
 @property (nonatomic,strong) NSMutableArray * items;
 /** 数据代理模型 */
-@property (nonatomic,strong) FirstArrayDatasourceAndDelegate * cellArrayDataSource;
-/** 记录选中表格 */
-@property (nonatomic,strong) FirstCell * selectCell;
+@property (nonatomic,strong) SecondDatasourceAndDelegate * cellArrayDataSource;
+
 @end
 
-@implementation ViewController
+@implementation ChatViewController
+
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil
                          bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // 设置标签项的标题
-        self.tabBarItem.title = @"Reminder";
+        self.tabBarItem.title = @"Hypnotize";
         
         // 从图片文件创建一个 UIImage 对象
-        UIImage * i = [UIImage imageNamed:@"Time"];
+        UIImage * i = [UIImage imageNamed:@"Hypno"];
         
         // 将 UIImage 对象赋值给标签项的 iamge 属性
         self.tabBarItem.image = i;
@@ -55,7 +54,6 @@
     [self loadData];
     
     [self setupView];
-    
 }
 
 // 模拟下载数据
@@ -164,36 +162,13 @@
     
 }
 
-// 初始化界面
 - (void)setupView {
     
-    // 配置cell表格
-    TableViewCellConfigureBlock configure = ^(FirstCell *cell,FirstModel *model){
-        cell.firstModel = model;
-    };
+    self.cellArrayDataSource = [[SecondDatasourceAndDelegate alloc] initWithArray:self.items cellIdentifier:@"secondCell"];
     
-    // 高度
-    TableViewCellHeightBlock cellHeight = ^CGFloat(NSIndexPath *indexPath,FirstModel *model){
-        return model.firstCellHeight;
-    };
+    [self.tableView registerClass:[FirstCell class] forCellReuseIdentifier:@"secondCell"];
     
-    // 选中
-    TableViewCellDidSelectBlock didSelect = ^(FirstCell *cell,FirstModel *model){
-        self.selectCell.select = NO;
-        cell.select = YES;
-        self.selectCell = cell;
-        [self.tableView reloadData];
-    };
-    
-    self.cellArrayDataSource = [[FirstArrayDatasourceAndDelegate alloc] initWithItem:self.items
-                                                                      cellIdentifier:@"FirstCell"
-                                                         tableViewCellConfigureBlock:configure
-                                                            tableViewCellHeightBlock:cellHeight
-                                                         tableViewCellDidSelectBlock:didSelect];
-    
-    [self.cellArrayDataSource handleTableViewDatasourceAndDelegate:self.tableView];
-    
-    [self.tableView registerClass:[FirstCell class] forCellReuseIdentifier:@"FirstCell"];
+    [self.cellArrayDataSource handleTableViewDataSourceAndDelegate:self.tableView];
 }
 #pragma mark - 懒加载
 - (UITableView *)tableView{
@@ -212,4 +187,5 @@
     }
     return _items;
 }
+
 @end

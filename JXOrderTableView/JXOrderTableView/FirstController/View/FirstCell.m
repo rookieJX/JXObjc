@@ -58,7 +58,7 @@
     
 }
 - (void)setSelect:(BOOL)select {
-    NSLog(@"%s%d",__func__,select);
+    NSLog(@"%s--%d",__func__,select);
     if (select) {
         self.contentLabel.textColor = [UIColor redColor];
         self.contentLabel.font = [UIFont systemFontOfSize:20];
