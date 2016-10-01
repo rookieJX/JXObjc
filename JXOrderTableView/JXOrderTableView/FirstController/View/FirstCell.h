@@ -15,5 +15,6 @@
 /** 接收模型 */
 @property (nonatomic,strong) FirstModel * firstModel;
 
-
+/** 选中 */
+@property (nonatomic,assign) BOOL select;
 @end

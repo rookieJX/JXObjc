@@ -57,7 +57,17 @@
     firstModel.firstCellHeight = CGRectGetMaxY(self.contentLabel.frame) + 10;
     
 }
-
+- (void)setSelect:(BOOL)select {
+    NSLog(@"%s%d",__func__,select);
+    if (select) {
+        self.contentLabel.textColor = [UIColor redColor];
+        self.contentLabel.font = [UIFont systemFontOfSize:20];
+        [self.contentLabel sizeToFit];
+    } else {
+        self.contentLabel.textColor = [UIColor blackColor];
+        self.contentLabel.font = [UIFont systemFontOfSize:13.0];
+    }
+}
 #pragma mark - 布局
 - (void)layoutSubviews {
     [super layoutSubviews];

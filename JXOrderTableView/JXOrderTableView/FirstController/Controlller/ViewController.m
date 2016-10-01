@@ -28,7 +28,8 @@
 @property (nonatomic,strong) NSMutableArray * items;
 /** 数据代理模型 */
 @property (nonatomic,strong) FirstArrayDatasourceAndDelegate * cellArrayDataSource;
-
+/** 记录选中表格 */
+@property (nonatomic,strong) FirstCell * selectCell;
 @end
 
 @implementation ViewController
@@ -163,7 +164,10 @@
     
     // 选中
     TableViewCellDidSelectBlock didSelect = ^(FirstCell *cell,FirstModel *model){
-        NSLog(@"选中：%@%@",model.firstNickName,cell.firstModel.firstContent);
+        self.selectCell.select = NO;
+        cell.select = YES;
+        self.selectCell = cell;
+        [self.tableView reloadData];
     };
     
     self.cellArrayDataSource = [[FirstArrayDatasourceAndDelegate alloc] initWithItem:self.items
