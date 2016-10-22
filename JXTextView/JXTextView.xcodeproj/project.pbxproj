@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		260AFE0B1DBBA96F00AD2189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE0A1DBBA96F00AD2189 /* main.m */; };
+		260AFE0E1DBBA96F00AD2189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE0D1DBBA96F00AD2189 /* AppDelegate.m */; };
+		260AFE111DBBA96F00AD2189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE101DBBA96F00AD2189 /* ViewController.m */; };
+		260AFE141DBBA96F00AD2189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260AFE121DBBA96F00AD2189 /* Main.storyboard */; };
+		260AFE161DBBA96F00AD2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 260AFE151DBBA96F00AD2189 /* Assets.xcassets */; };
+		260AFE191DBBA96F00AD2189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260AFE171DBBA96F00AD2189 /* LaunchScreen.storyboard */; };
+		260AFE241DBBA96F00AD2189 /* JXTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE231DBBA96F00AD2189 /* JXTextViewTests.m */; };
+		260AFE2F1DBBA96F00AD2189 /* JXTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE2E1DBBA96F00AD2189 /* JXTextViewUITests.m */; };
+		260AFE3F1DBBCB9600AD2189 /* JXHighLightingTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE3E1DBBCB9600AD2189 /* JXHighLightingTextStorage.m */; };
+		260AFE421DBBD1E800AD2189 /* JXHighlightingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 260AFE411DBBD1E800AD2189 /* JXHighlightingController.m */; };
+		260AFE441DBBD38800AD2189 /* iText.txt in Resources */ = {isa = PBXBuildFile; fileRef = 260AFE431DBBD38800AD2189 /* iText.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260AFE201DBBA96F00AD2189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260AFDFE1DBBA96F00AD2189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260AFE051DBBA96F00AD2189;
+			remoteInfo = JXTextView;
+		};
+		260AFE2B1DBBA96F00AD2189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 260AFDFE1DBBA96F00AD2189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 260AFE051DBBA96F00AD2189;
+			remoteInfo = JXTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		260AFE061DBBA96F00AD2189 /* JXTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JXTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		260AFE0A1DBBA96F00AD2189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		260AFE0C1DBBA96F00AD2189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		260AFE0D1DBBA96F00AD2189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		260AFE0F1DBBA96F00AD2189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		260AFE101DBBA96F00AD2189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		260AFE131DBBA96F00AD2189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		260AFE151DBBA96F00AD2189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		260AFE181DBBA96F00AD2189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		260AFE1A1DBBA96F00AD2189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260AFE1F1DBBA96F00AD2189 /* JXTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260AFE231DBBA96F00AD2189 /* JXTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXTextViewTests.m; sourceTree = "<group>"; };
+		260AFE251DBBA96F00AD2189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260AFE2A1DBBA96F00AD2189 /* JXTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JXTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		260AFE2E1DBBA96F00AD2189 /* JXTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JXTextViewUITests.m; sourceTree = "<group>"; };
+		260AFE301DBBA96F00AD2189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		260AFE3D1DBBCB9600AD2189 /* JXHighLightingTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXHighLightingTextStorage.h; sourceTree = "<group>"; };
+		260AFE3E1DBBCB9600AD2189 /* JXHighLightingTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXHighLightingTextStorage.m; sourceTree = "<group>"; };
+		260AFE401DBBD1E800AD2189 /* JXHighlightingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXHighlightingController.h; sourceTree = "<group>"; };
+		260AFE411DBBD1E800AD2189 /* JXHighlightingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXHighlightingController.m; sourceTree = "<group>"; };
+		260AFE431DBBD38800AD2189 /* iText.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = iText.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		260AFE031DBBA96F00AD2189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE1C1DBBA96F00AD2189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE271DBBA96F00AD2189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		260AFDFD1DBBA96F00AD2189 = {
+			isa = PBXGroup;
+			children = (
+				260AFE081DBBA96F00AD2189 /* JXTextView */,
+				260AFE221DBBA96F00AD2189 /* JXTextViewTests */,
+				260AFE2D1DBBA96F00AD2189 /* JXTextViewUITests */,
+				260AFE071DBBA96F00AD2189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		260AFE071DBBA96F00AD2189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE061DBBA96F00AD2189 /* JXTextView.app */,
+				260AFE1F1DBBA96F00AD2189 /* JXTextViewTests.xctest */,
+				260AFE2A1DBBA96F00AD2189 /* JXTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		260AFE081DBBA96F00AD2189 /* JXTextView */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE0C1DBBA96F00AD2189 /* AppDelegate.h */,
+				260AFE0D1DBBA96F00AD2189 /* AppDelegate.m */,
+				260AFE0F1DBBA96F00AD2189 /* ViewController.h */,
+				260AFE101DBBA96F00AD2189 /* ViewController.m */,
+				260AFE3C1DBBCB6900AD2189 /* HighLighting */,
+				260AFE121DBBA96F00AD2189 /* Main.storyboard */,
+				260AFE151DBBA96F00AD2189 /* Assets.xcassets */,
+				260AFE171DBBA96F00AD2189 /* LaunchScreen.storyboard */,
+				260AFE1A1DBBA96F00AD2189 /* Info.plist */,
+				260AFE091DBBA96F00AD2189 /* Supporting Files */,
+			);
+			path = JXTextView;
+			sourceTree = "<group>";
+		};
+		260AFE091DBBA96F00AD2189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE0A1DBBA96F00AD2189 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		260AFE221DBBA96F00AD2189 /* JXTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE231DBBA96F00AD2189 /* JXTextViewTests.m */,
+				260AFE251DBBA96F00AD2189 /* Info.plist */,
+			);
+			path = JXTextViewTests;
+			sourceTree = "<group>";
+		};
+		260AFE2D1DBBA96F00AD2189 /* JXTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE2E1DBBA96F00AD2189 /* JXTextViewUITests.m */,
+				260AFE301DBBA96F00AD2189 /* Info.plist */,
+			);
+			path = JXTextViewUITests;
+			sourceTree = "<group>";
+		};
+		260AFE3C1DBBCB6900AD2189 /* HighLighting */ = {
+			isa = PBXGroup;
+			children = (
+				260AFE3D1DBBCB9600AD2189 /* JXHighLightingTextStorage.h */,
+				260AFE3E1DBBCB9600AD2189 /* JXHighLightingTextStorage.m */,
+				260AFE401DBBD1E800AD2189 /* JXHighlightingController.h */,
+				260AFE411DBBD1E800AD2189 /* JXHighlightingController.m */,
+				260AFE431DBBD38800AD2189 /* iText.txt */,
+			);
+			path = HighLighting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		260AFE051DBBA96F00AD2189 /* JXTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260AFE331DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextView" */;
+			buildPhases = (
+				260AFE021DBBA96F00AD2189 /* Sources */,
+				260AFE031DBBA96F00AD2189 /* Frameworks */,
+				260AFE041DBBA96F00AD2189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JXTextView;
+			productName = JXTextView;
+			productReference = 260AFE061DBBA96F00AD2189 /* JXTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		260AFE1E1DBBA96F00AD2189 /* JXTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260AFE361DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextViewTests" */;
+			buildPhases = (
+				260AFE1B1DBBA96F00AD2189 /* Sources */,
+				260AFE1C1DBBA96F00AD2189 /* Frameworks */,
+				260AFE1D1DBBA96F00AD2189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260AFE211DBBA96F00AD2189 /* PBXTargetDependency */,
+			);
+			name = JXTextViewTests;
+			productName = JXTextViewTests;
+			productReference = 260AFE1F1DBBA96F00AD2189 /* JXTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		260AFE291DBBA96F00AD2189 /* JXTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260AFE391DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextViewUITests" */;
+			buildPhases = (
+				260AFE261DBBA96F00AD2189 /* Sources */,
+				260AFE271DBBA96F00AD2189 /* Frameworks */,
+				260AFE281DBBA96F00AD2189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				260AFE2C1DBBA96F00AD2189 /* PBXTargetDependency */,
+			);
+			name = JXTextViewUITests;
+			productName = JXTextViewUITests;
+			productReference = 260AFE2A1DBBA96F00AD2189 /* JXTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		260AFDFE1DBBA96F00AD2189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "王加祥";
+				TargetAttributes = {
+					260AFE051DBBA96F00AD2189 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					260AFE1E1DBBA96F00AD2189 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 260AFE051DBBA96F00AD2189;
+					};
+					260AFE291DBBA96F00AD2189 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 260AFE051DBBA96F00AD2189;
+					};
+				};
+			};
+			buildConfigurationList = 260AFE011DBBA96F00AD2189 /* Build configuration list for PBXProject "JXTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 260AFDFD1DBBA96F00AD2189;
+			productRefGroup = 260AFE071DBBA96F00AD2189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				260AFE051DBBA96F00AD2189 /* JXTextView */,
+				260AFE1E1DBBA96F00AD2189 /* JXTextViewTests */,
+				260AFE291DBBA96F00AD2189 /* JXTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		260AFE041DBBA96F00AD2189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260AFE191DBBA96F00AD2189 /* LaunchScreen.storyboard in Resources */,
+				260AFE161DBBA96F00AD2189 /* Assets.xcassets in Resources */,
+				260AFE141DBBA96F00AD2189 /* Main.storyboard in Resources */,
+				260AFE441DBBD38800AD2189 /* iText.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE1D1DBBA96F00AD2189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE281DBBA96F00AD2189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		260AFE021DBBA96F00AD2189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260AFE3F1DBBCB9600AD2189 /* JXHighLightingTextStorage.m in Sources */,
+				260AFE421DBBD1E800AD2189 /* JXHighlightingController.m in Sources */,
+				260AFE111DBBA96F00AD2189 /* ViewController.m in Sources */,
+				260AFE0E1DBBA96F00AD2189 /* AppDelegate.m in Sources */,
+				260AFE0B1DBBA96F00AD2189 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE1B1DBBA96F00AD2189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260AFE241DBBA96F00AD2189 /* JXTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		260AFE261DBBA96F00AD2189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				260AFE2F1DBBA96F00AD2189 /* JXTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		260AFE211DBBA96F00AD2189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260AFE051DBBA96F00AD2189 /* JXTextView */;
+			targetProxy = 260AFE201DBBA96F00AD2189 /* PBXContainerItemProxy */;
+		};
+		260AFE2C1DBBA96F00AD2189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 260AFE051DBBA96F00AD2189 /* JXTextView */;
+			targetProxy = 260AFE2B1DBBA96F00AD2189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		260AFE121DBBA96F00AD2189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260AFE131DBBA96F00AD2189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		260AFE171DBBA96F00AD2189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				260AFE181DBBA96F00AD2189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		260AFE311DBBA96F00AD2189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		260AFE321DBBA96F00AD2189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		260AFE341DBBA96F00AD2189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		260AFE351DBBA96F00AD2189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JXTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		260AFE371DBBA96F00AD2189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXTextView.app/JXTextView";
+			};
+			name = Debug;
+		};
+		260AFE381DBBA96F00AD2189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JXTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JXTextView.app/JXTextView";
+			};
+			name = Release;
+		};
+		260AFE3A1DBBA96F00AD2189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXTextView;
+			};
+			name = Debug;
+		};
+		260AFE3B1DBBA96F00AD2189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JXTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rookieJX.JXTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JXTextView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260AFE011DBBA96F00AD2189 /* Build configuration list for PBXProject "JXTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260AFE311DBBA96F00AD2189 /* Debug */,
+				260AFE321DBBA96F00AD2189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		260AFE331DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260AFE341DBBA96F00AD2189 /* Debug */,
+				260AFE351DBBA96F00AD2189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		260AFE361DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260AFE371DBBA96F00AD2189 /* Debug */,
+				260AFE381DBBA96F00AD2189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		260AFE391DBBA96F00AD2189 /* Build configuration list for PBXNativeTarget "JXTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260AFE3A1DBBA96F00AD2189 /* Debug */,
+				260AFE3B1DBBA96F00AD2189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 260AFDFE1DBBA96F00AD2189 /* Project object */;
+}
